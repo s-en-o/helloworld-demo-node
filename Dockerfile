@@ -33,4 +33,4 @@ COPY . .
 EXPOSE 7070
 
 # Run the application.
-CMD node app.js
+CMD ["node", "app.js"]
