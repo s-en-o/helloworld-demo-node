@@ -18,6 +18,6 @@ Hello from Docker!
   res.end();
 });
 
-server.listen(8080, () => {
+server.listen(7070, () => {
   console.log('Server started!');
 });
