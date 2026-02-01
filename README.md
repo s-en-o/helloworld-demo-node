@@ -12,13 +12,13 @@ Example used to demonstrate ```docker init``` CLI for a simple Hello World Node 
 You can simply use `node app.js` command.
 
 
-This script creates a simple HTTP server that listens on port 8080 and returns a response with the message "Hello from Docker!" when accessed. You can save this script as app.js in your project directory and then run it using the command node app.js from the terminal.
+This script creates a simple HTTP server that listens on port 7070 and returns a response with the message "Hello from Docker!" when accessed. You can save this script as app.js in your project directory and then run it using the command node app.js from the terminal.
 
 
 Those commands will start a http server listening on port `7070` 
 and if your request `http://localhost:7070` you'll see the following output: 
 ```shell
-❯ curl http://localhost:8080
+❯ curl http://localhost:7070
 
           ##         .
     ## ## ##        ==
@@ -64,7 +64,7 @@ This utility will walk you through creating the following files with sensible de
  ## Accessing the Node app
  
  ```
- curl localhost:8080
+ curl localhost:7070
 
           ##         .
     ## ## ##        ==
